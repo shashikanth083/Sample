@@ -1,0 +1,15 @@
+Collections API vs Stream API
+
+1. Collections APIs are in use from java 1.2 and Stream APIs are introduced in java 8.
+2. Collection API used to store data on different type of data structures whereas Stream API is used to perform computations on these data.
+3. With Collection API we can store a finite number of elements in a data structure.
+   With Stream API, we can handle streams of data that can contain infinite number of elements.
+4. Collection API constructs objects in an eager manner. Stream API creates objects in a lazy manner.
+5. Most of the Collection APIs support iteration and consumption of elements multiple times.
+   With Stream API we can consume or iterate elements only once.
+
+Iterator vs Spliterator
+1. Iterator was introduced in jdk 1.2 while Spliterator is introduced in jdk 1.8
+2. Iterator is used for Collection API while Spliterator is used for Stream API
+3. Iterator can be used for iterating the elements in Collection in sequential order
+   while Spliterator can be used for iterating the Stream elements in parallel or sequential order.
